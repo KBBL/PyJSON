@@ -44,8 +44,11 @@ Deserialization hasn't been implemented yet.
 
 * Implement deserialization
 * Decorator should take a list of keyword arguments specifying the types of fields
+
 > @json_serializable(field1="str", field2="datetime", field3="date", field4="time")
+
 * Specify formatters and format strings for dates and times
+
 > def dt_formatter(d):
 >     return unicode(d)
 >
