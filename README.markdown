@@ -53,3 +53,4 @@ Deserialization hasn't been implemented yet.
 	PyJSON.set_type_formatter(date=dt_formatter)
 	PyJSON.set_date_format_string("%Y-%m-%d")
 
+.
