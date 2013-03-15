@@ -51,7 +51,7 @@ Deserialization hasn't been implemented yet.
 
 > def dt_formatter(d):
 >     return unicode(d)
->
-> PyJSON.set_type_formatter("date", dt_formatter)
+> 
+> PyJSON.set_type_formatter(date=dt_formatter)
 > PyJSON.set_date_format_string("%Y-%m-%d")
 
