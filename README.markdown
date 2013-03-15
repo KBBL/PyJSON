@@ -31,10 +31,10 @@ Deserialization hasn't been implemented yet.
 > 
 > obj = AnotherClass()
 >
-> # serializes obj to a string and prints it.
+> \# serializes obj to a string and prints it.
 > print (serialize(obj))
 >
-> # writes the generated json text to output-file.json
+> \# writes the generated json text to output-file.json
 > fp = open("output-file.json", "w")
 > serialize(obj, fp)
 > fp.close()
